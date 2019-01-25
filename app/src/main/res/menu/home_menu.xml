@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-            android:id="@+id/aboutFragment"
-            android:title="About"
-            app:showAsAction="always"
-            android:icon="@drawable/ic_info"/>
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/ic_info"
+        android:title="About"
+        app:showAsAction="always" />
 
     <item
-            android:id="@+id/infoFragment"
-            android:icon="@drawable/ic_info"
-            android:title="info"
-            app:showAsAction="always"/>
+        android:id="@+id/infoFragment"
+        android:icon="@drawable/ic_info"
+        android:title="info"
+        app:showAsAction="always" />
 
     <item
-            android:id="@+id/homeFragment"
-            android:icon="@null"
-            android:title=""
-            android:enabled="false"
-            app:showAsAction="always"/>
+        android:id="@+id/homeFragment"
+        android:enabled="false"
+        android:icon="@null"
+        android:title=""
+        app:showAsAction="always" />
     <item
-            android:id="@+id/settingsFragment"
-            android:icon="@drawable/ic_info"
-            android:title="Settings"
-            app:showAsAction="always"/>
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_info"
+        android:title="Settings"
+        app:showAsAction="always" />
     <item
-            android:id="@+id/accountFragment"
-            android:icon="@drawable/ic_info"
-            android:title="About"
-            app:showAsAction="always"/>
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_info"
+        android:title="About"
+        app:showAsAction="always" />
     />
 </menu>
